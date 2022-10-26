@@ -8,6 +8,10 @@ from Import_export import export_from_file as from_file
 from Encode_decode import rle_encode as encode
 from Encode_decode import rle_decode as decode
 
+import os
+
+os.system('cls')
+
 different_chars = enter('Введите количество различных символов в изначальной строке: ')
 original_text = create (different_chars)
 print(f'Информация в исходном в виде: {original_text}')
